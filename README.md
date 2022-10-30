@@ -14,7 +14,7 @@ style.css - файл таблицы стилей CSS.
 main.py - простейший Flask сервер(REST API на Python).
 
 # Скриншоты интерфейса десктоп приложения
-![img.png](Images for README/img.png)
+![img.png](img.png)
 
 Была выбрана операция "Умножение"
-![img_1.png](Images for README/img_1.png)
+![img_1.png](img_1.png)
