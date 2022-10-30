@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+}
+
+p1{
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+.result{
+    transform: translateY(10px);
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+button.btn{
+    background-color: #8A2BE2;
+    border: #8A2BE2;
+}
+
+button{
+    background-color: #20B2AA;
+    color: white;
+    border: #20B2AA;
+    text-align: center;
+    font-size: 36px;
+    padding: 5px 15px;
+    font-family: 'Montserrat';
+}
+
+.button{
+    text-align: center;
+    border-radius: 12px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.Nums
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    gap: 30px;
+
+}
+
+.InputBox{
+    position: relative;
+    width: 250px;
+
+}
+
+.InputBox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    outline: none;
+    transition: 0.5s;
+}
+
+.InputBox span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+.InputBox input:valid ~ span,
+.InputBox input:focus ~ span
+{
+    color: #8A2BE2;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: white;
+    border-left: 1px solid #8A2BE2;
+    border-right: 1px solid #8A2BE2;
+    letter-spacing: 0.2em;
+
+}
+
+.InputBox input:valid ~ span,
+.InputBox input:focus ~ span
+{
+    background: #8A2BE2;
+    color: white;
+    border-radius: 2px;
+}
+
+.InputBox input:valid,
+.InputBox input:focus
+{
+    border: 1px solid #8A2BE2;
+}
